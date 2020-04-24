@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamsVoiceRecordChatBot.Application", "TeamsVoiceRecordChatBot.Application\TeamsVoiceRecordChatBot.Application.csproj", "{2AFC1DBF-017B-4734-8182-9EA308EB00CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63A907C2-82C4-4044-9E19-6836B96916E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "manifest", "manifest", "{124029D5-9ECC-427A-ABC8-80BA24A7A995}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dev", "dev", "{8D3E64A8-F9F3-4450-83EF-37B339F3E4E5}"
+	ProjectSection(SolutionItems) = preProject
+		manifest\dev\icon-color.png = manifest\dev\icon-color.png
+		manifest\dev\icon-outline.png = manifest\dev\icon-outline.png
+		manifest\dev\manifest.json = manifest\dev\manifest.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Connector.Teams", "Microsoft.Bot.Connector.Teams\Microsoft.Bot.Connector.Teams.csproj", "{0E36C8F1-3448-40EC-A1FF-E3C977CFDF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Teams.Integration.Common", "Microsoft.Teams.Integration.Common\Microsoft.Teams.Integration.Common.csproj", "{995D6CC7-AD13-446B-B73F-6F0434D8FE5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFC1DBF-017B-4734-8182-9EA308EB00CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFC1DBF-017B-4734-8182-9EA308EB00CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFC1DBF-017B-4734-8182-9EA308EB00CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFC1DBF-017B-4734-8182-9EA308EB00CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E36C8F1-3448-40EC-A1FF-E3C977CFDF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E36C8F1-3448-40EC-A1FF-E3C977CFDF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E36C8F1-3448-40EC-A1FF-E3C977CFDF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E36C8F1-3448-40EC-A1FF-E3C977CFDF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995D6CC7-AD13-446B-B73F-6F0434D8FE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995D6CC7-AD13-446B-B73F-6F0434D8FE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995D6CC7-AD13-446B-B73F-6F0434D8FE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995D6CC7-AD13-446B-B73F-6F0434D8FE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AFC1DBF-017B-4734-8182-9EA308EB00CB} = {63A907C2-82C4-4044-9E19-6836B96916E3}
+		{8D3E64A8-F9F3-4450-83EF-37B339F3E4E5} = {124029D5-9ECC-427A-ABC8-80BA24A7A995}
+		{0E36C8F1-3448-40EC-A1FF-E3C977CFDF44} = {63A907C2-82C4-4044-9E19-6836B96916E3}
+		{995D6CC7-AD13-446B-B73F-6F0434D8FE5C} = {63A907C2-82C4-4044-9E19-6836B96916E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37AF06CB-0C6F-4E7D-BCCE-DA57D33CE70D}
+	EndGlobalSection
+EndGlobal

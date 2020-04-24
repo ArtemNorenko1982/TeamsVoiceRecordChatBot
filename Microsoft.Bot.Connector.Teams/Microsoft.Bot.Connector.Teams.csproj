@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CXuesong.Ported.Microsoft.Bot.Builder" Version="3.13.0.3" />
+    <PackageReference Include="Polly" Version="6.1.0" />
+  </ItemGroup>
+</Project>

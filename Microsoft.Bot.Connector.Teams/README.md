@@ -1,0 +1,1 @@
+Cloned from https://github.com/OfficeDev/BotBuilder-MicrosoftTeams/tree/master/CSharp/Library/Microsoft.Bot.Connector.Teams.Shared
